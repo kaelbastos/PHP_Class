@@ -1,0 +1,10 @@
+ErrorDocument 404 http://localhost/EAD%202/error.php
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^filme/(.*)/(.*)$ index.php?id=$1&detail=$2 [L]
+RewriteRule ^filme/(.*)$ index.php?id=$1 [L]
+RewriteRule ^filme(.*)$ index.php?url=$1 [L]

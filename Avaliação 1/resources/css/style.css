@@ -1,0 +1,29 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    background-color: darkslategrey;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitButton{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.centerContent{
+    text-align: center;
+    justify-items: center center;
+}
+
+.btn{
+    border-radius: 5px;
+    color: cadetblue;
+}
