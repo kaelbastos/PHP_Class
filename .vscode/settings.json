@@ -1,0 +1,11 @@
+{
+    "zenMode.fullScreen": false,
+    "workbench.tips.enabled": false,
+    "zenMode.centerLayout": false,
+    "window.autoDetectColorScheme": true,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "workbench.colorCustomizations": {
+    
+    }
+}

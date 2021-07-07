@@ -1,0 +1,100 @@
+:root{
+    --nav-heigth: 20vh;
+    --content-heigth: 60vh;
+    --content-fieldset-padding-left-rigth: 1vw;
+    --table-imgsize: 4vh;
+}
+
+
+
+.header, .footer{
+    background: cadetblue;
+    width: 100%;
+    min-height: var(--nav-heigth);
+    margin: 0px auto;
+    padding-top: 30px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: var(--nav-heigth);
+}
+
+.content{
+    background: whitesmoke;
+    width: 100%;
+    min-height: var(--content-heigth);
+
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    padding-bottom: 2vh;
+
+    align-items: center;
+}
+
+.homeButton, .btn{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: green;
+    color: white;
+}
+
+button{
+    font-size: 3vh;
+    border-radius: 3vh;
+}
+
+.content fieldset legend{
+    text-align: left;
+}
+
+.content fieldset{
+    margin-left: var(--content-fieldset-padding-left-rigth);
+    margin-right: var(--content-fieldset-padding-left-rigth);
+    align-content: center;
+    text-align: center;
+}
+
+.radio-section{
+    display: grid;
+    align-content: center;
+}
+
+.radio-section div{
+    margin: 2.5px;
+}
+
+table{
+    width: 90vw;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tableButton{
+    padding: 0px;
+    border: none;
+}
+
+.tableImg{
+    height: var(--table-imgsize);
+    width: var(--table-imgsize);
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+th, td{
+    border: 1px solid;
+}
+
+.inlineContent{
+    display: inline-flex;
+}
+
+*{
+    margin: 0px;
+}
