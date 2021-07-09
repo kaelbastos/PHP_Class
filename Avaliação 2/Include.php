@@ -12,7 +12,7 @@
     <?php include "resources/Header.php";?>
 
     <div class='content'>
-
+        <br><br>
         <form action="Process.php" method="post">
             <fieldset>
                 <legend>Novo Aluno</legend>
@@ -35,7 +35,7 @@
                 <br>
 
                 <div>
-                    <label for="txtTelefone">Matricula:</label>
+                    <label for="txtMatricula">Matricula:</label>
                     <div>
                         <input type="text" name="txtMatricula" class="form-input" id="txtMatricula" placeholder="SC XXXX-XXX" required>
                     </div>
@@ -44,9 +44,9 @@
                 <br>
 
                 <div>
-                    <label for="dataIngresso">Idade:</label>
+                    <label for="nmbIdade">Idade:</label>
                     <div>
-                        <input type="number" name="nmbIdade" class="form-input" placeholder="00" required>
+                        <input type="number" name="nmbIdade" class="form-input" min=0 max=100 placeholder="00" required>
                     </div>
                 </div>
 
@@ -91,14 +91,20 @@
 
                 <br><br>
 
-                <div>
+                <div class="buttons multiple">
+
+                     <div class="submitButton">
+                         <a href="Home.php"><button type="button" class="oposite btn">Voltar</button></a>
+                    </div>
+                    
                     <div class="submitButton">
                         <button type="submit" name="operacao" value="include" class="btn">Incluir</button>
                     </div>
+                    
                 </div>
             </fieldset>
         </form>
-
+        <br><br>
     </div>
 
     <?php include "resources/Footer.php";?>

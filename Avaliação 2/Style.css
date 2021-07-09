@@ -27,21 +27,29 @@
     width: 100%;
     min-height: var(--content-heigth);
 
-    
-
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-
-    padding-bottom: 2vh;
 
     align-items: center;
 }
 
-.homeButton, .btn{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+div.buttons.multiple{
+    display: inline-flex;
+}
+
+div.buttons{
+    text-align: center;
+}
+
+.homeButton, .btn {
+    margin-left: 1vw;
+    margin-right: 1vw;
     background-color: green;
     color: white;
+}
+
+.oposite.btn{
+    background-color: red;
 }
 
 button{

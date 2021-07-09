@@ -12,15 +12,17 @@
     <?php include "resources/Header.php"; ?>
 
     <div class='content'>
-
+        <br><br>
         <?php include $_SERVER["DOCUMENT_ROOT"]."/PHP/Avaliação 2/resources/ContentTable.php"; ?>
 
-        <fieldset>
-            <form method="get" action="Include.php">
-                <button type="submit" class="homeButton">Novo Aluno</button>
-            </form>
-        </fieldset>
+        <br><br><br>
 
+        <div class="buttons">
+             <a href="Include.php" class="homeLink">
+                <button type="button" class="homeButton">Novo Aluno</button>
+            </a>
+        </div>
+        <br><br>
     </div>
 
     <?php include "resources/Footer.php"; ?>
